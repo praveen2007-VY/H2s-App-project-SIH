@@ -1,0 +1,31 @@
+name: h2s_safety_platform
+version: 1.0.0+1
+description: Professional H2S worker safety platform scaffold with worker mobile and admin web experiences.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+  flutter: '>=3.38.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.3
+  fl_chart: ^1.2.0
+  csv: ^8.0.0
+  pdf: ^3.13.0
+  printing: ^5.15.0
+  geolocator: ^14.0.3
+  supabase_flutter: ^2.17.2
+  path_provider: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
